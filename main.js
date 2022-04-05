@@ -78,66 +78,30 @@ massiv.forEach((item) => {
 
 
 
-// setInterval(displayHello, 1000);
-// let imgpic = document.querySelectorAll(".img-pic")
-
 
 let image1 = document.querySelector("#img1");
 let image2 = document.querySelector("#img2");
 let image3 = document.querySelector("#img3");
-// let image4 = document.querySelector("#img4");
 
-// image4.onclick = function () {
-//   setTimeout(myFunction, 1000)
-//   image4.style.top = "-140px";
-//   image4.style.left = "110px";
-//   image4.style.width = "380px";
-//   image4.style.height = "640px";
-//   // image4.style.boxShadow = "inset 0 0 10px rgba(255, 255, 255, 0.9)";
-//   image4.style.zIndex = 2;
-//   image3.style.top = "33px";
-//   image3.style.left = "-190px";
-//   image3.style.width = "300px";
-//   image3.style.height = "334px";
-//   // image3.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-//   image3.style.zIndex = 1;
-//   image2.style.top = "33px";
-//   image2.style.left = "135px";
-//   image2.style.width = "300px";
-//   image2.style.height = "334px";
-//   // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-//   image2.style.zIndex = 1;
-//   image1.style.top = "33px";
-//   image1.style.left = "460px";
-//   image1.style.width = "300px";
-//   image1.style.height = "334px";
-//   // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-//   image1.style.zIndex = 1;
-// };
 image3.onclick = function () {
   setTimeout(myFunction, 1000)
   image3.style.top = "-140px";
   image3.style.left = "110px";
   image3.style.width = "380px";
   image3.style.height = "640px";
-  // image3.style.boxShadow = "inset 0 0 10px rgba(255, 255, 255, 0.9)";
+
   image3.style.zIndex = 2;
   image2.style.top = "33px";
   image2.style.left = "-190px";
   image2.style.width = "300px";
   image2.style.height = "334px";
-  // image2.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
+
   image2.style.zIndex = 1;
   image1.style.top = "33px";
   image1.style.left = "-405px";
-  // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
+
   image1.style.zIndex = 1;
-  // image4.style.top = "33px";
-  // image4.style.left = "460px";
-  // image4.style.width = "300px";
-  // image4.style.height = "334px";
-  // // image4.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-  // image4.style.zIndex = 1;
+
 };
 image2.onclick = function () {
   setTimeout(myFunction, 1000)
@@ -145,26 +109,21 @@ image2.onclick = function () {
   image2.style.left = "110px";
   image2.style.width = "380px";
   image2.style.height = "640px";
-  // image2.style.boxShadow = "inset 0 0 10px rgba(255, 255, 255, 0.9)";
+
   image2.style.zIndex = 2;
   image3.style.top = "33px";
   image3.style.left = "460px";
   image3.style.width = "300px";
   image3.style.height = "334px";
-  // image3.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
+ 
   image3.style.zIndex = 1;
   image1.style.top = "33px";
   image1.style.left = "-190px";
   image1.style.width = "300px";
   image1.style.height = "334px";
-  // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
+
   image1.style.zIndex = 1;
-  // image4.style.top = "33px";
-  // image4.style.left = "135px";
-  // image4.style.width = "300px";
-  // image4.style.height = "334px";
-  // // image4.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-  // image4.style.zIndex = 1;
+
 };
 image1.onclick = function () {
   setTimeout(myFunction, 1000)
@@ -172,26 +131,21 @@ image1.onclick = function () {
   image1.style.left = "110px";
   image1.style.width = "380px";
   image1.style.height = "640px";
-  // image1.style.boxShadow = "inset 0 0 10px rgba(255, 255, 255, 1)";
+
   image1.style.zIndex = 2;
   image2.style.top = "33px";
   image2.style.left = "460px";
   image2.style.width = "300px";
   image2.style.height = "334px";
-  // image2.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 0.9)";
+
   image2.style.zIndex = 1;
   image3.style.top = "33px";
   image3.style.left = "755px";
   image3.style.width = "300px";
   image3.style.height = "334px";
-  // image3.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 0.9)";
+
   image3.style.zIndex = 1;
-  // image4.style.top = "33px";
-  // image4.style.left = "-190px";
-  // image4.style.width = "300px";
-  // image4.style.height = "334px";
-  // // image4.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 0.9)";
-  // image4.style.zIndex = 1;
+
 };
 
 let closebtn = document.querySelector("#closebtn")
