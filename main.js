@@ -26,14 +26,14 @@ let massiv = [
     name:"movie-3"
   },
 
-  {
-    id:4,
-    media:[
-       "https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_690,w_900/https%3A%2F%2Fdorksideoftheforce.com%2Ffiles%2F2020%2F01%2FCLONEWARS_1sheet_15434_L-900x0.jpg",
-       "https://static.toiimg.com/photo/msid-77757581/77757581.jpg?556063",
-    ],
-    name:"movie-4"
-  },
+  // {
+  //   id:4,
+  //   media:[
+  //      "https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_690,w_900/https%3A%2F%2Fdorksideoftheforce.com%2Ffiles%2F2020%2F01%2FCLONEWARS_1sheet_15434_L-900x0.jpg",
+  //      "https://static.toiimg.com/photo/msid-77757581/77757581.jpg?556063",
+  //   ],
+  //   name:"movie-4"
+  // },
 ]
 
 let idx = 1
@@ -85,35 +85,35 @@ massiv.forEach((item) => {
 let image1 = document.querySelector("#img1");
 let image2 = document.querySelector("#img2");
 let image3 = document.querySelector("#img3");
-let image4 = document.querySelector("#img4");
+// let image4 = document.querySelector("#img4");
 
-image4.onclick = function () {
-  setTimeout(myFunction, 1000)
-  image4.style.top = "-140px";
-  image4.style.left = "110px";
-  image4.style.width = "380px";
-  image4.style.height = "640px";
-  // image4.style.boxShadow = "inset 0 0 10px rgba(255, 255, 255, 0.9)";
-  image4.style.zIndex = 2;
-  image3.style.top = "33px";
-  image3.style.left = "-190px";
-  image3.style.width = "300px";
-  image3.style.height = "334px";
-  // image3.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-  image3.style.zIndex = 1;
-  image2.style.top = "33px";
-  image2.style.left = "135px";
-  image2.style.width = "300px";
-  image2.style.height = "334px";
-  // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-  image2.style.zIndex = 1;
-  image1.style.top = "33px";
-  image1.style.left = "460px";
-  image1.style.width = "300px";
-  image1.style.height = "334px";
-  // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-  image1.style.zIndex = 1;
-};
+// image4.onclick = function () {
+//   setTimeout(myFunction, 1000)
+//   image4.style.top = "-140px";
+//   image4.style.left = "110px";
+//   image4.style.width = "380px";
+//   image4.style.height = "640px";
+//   // image4.style.boxShadow = "inset 0 0 10px rgba(255, 255, 255, 0.9)";
+//   image4.style.zIndex = 2;
+//   image3.style.top = "33px";
+//   image3.style.left = "-190px";
+//   image3.style.width = "300px";
+//   image3.style.height = "334px";
+//   // image3.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
+//   image3.style.zIndex = 1;
+//   image2.style.top = "33px";
+//   image2.style.left = "135px";
+//   image2.style.width = "300px";
+//   image2.style.height = "334px";
+//   // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
+//   image2.style.zIndex = 1;
+//   image1.style.top = "33px";
+//   image1.style.left = "460px";
+//   image1.style.width = "300px";
+//   image1.style.height = "334px";
+//   // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
+//   image1.style.zIndex = 1;
+// };
 image3.onclick = function () {
   setTimeout(myFunction, 1000)
   image3.style.top = "-140px";
@@ -129,15 +129,15 @@ image3.onclick = function () {
   // image2.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
   image2.style.zIndex = 1;
   image1.style.top = "33px";
-  image1.style.left = "135px";
+  image1.style.left = "-385px";
   // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
   image1.style.zIndex = 1;
-  image4.style.top = "33px";
-  image4.style.left = "460px";
-  image4.style.width = "300px";
-  image4.style.height = "334px";
-  // image4.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-  image4.style.zIndex = 1;
+  // image4.style.top = "33px";
+  // image4.style.left = "460px";
+  // image4.style.width = "300px";
+  // image4.style.height = "334px";
+  // // image4.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
+  // image4.style.zIndex = 1;
 };
 image2.onclick = function () {
   setTimeout(myFunction, 1000)
@@ -159,12 +159,12 @@ image2.onclick = function () {
   image1.style.height = "334px";
   // image1.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
   image1.style.zIndex = 1;
-  image4.style.top = "33px";
-  image4.style.left = "135px";
-  image4.style.width = "300px";
-  image4.style.height = "334px";
-  // image4.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
-  image4.style.zIndex = 1;
+  // image4.style.top = "33px";
+  // image4.style.left = "135px";
+  // image4.style.width = "300px";
+  // image4.style.height = "334px";
+  // // image4.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 1)";
+  // image4.style.zIndex = 1;
 };
 image1.onclick = function () {
   setTimeout(myFunction, 1000)
@@ -186,12 +186,12 @@ image1.onclick = function () {
   image3.style.height = "334px";
   // image3.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 0.9)";
   image3.style.zIndex = 1;
-  image4.style.top = "33px";
-  image4.style.left = "-190px";
-  image4.style.width = "300px";
-  image4.style.height = "334px";
-  // image4.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 0.9)";
-  image4.style.zIndex = 1;
+  // image4.style.top = "33px";
+  // image4.style.left = "-190px";
+  // image4.style.width = "300px";
+  // image4.style.height = "334px";
+  // // image4.style.boxShadow = "inset 0 0 90px rgba(255, 255, 255, 0.9)";
+  // image4.style.zIndex = 1;
 };
 
 let closebtn = document.querySelector("#closebtn")
@@ -204,3 +204,5 @@ function myFunction() {
   console.log("helloooo");
 }
 
+
+// 3 gemini
